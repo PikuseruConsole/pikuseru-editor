@@ -12,7 +12,7 @@ log = "0.4"
 env_logger= "0.10.0"
 
 # pikuseru dependencies
-pikuseru = { version = "*", default-features = false }
+pikuseru = { git = "https://github.com/PikuseruConsole/pikuseru.git", version = "*", default-features = false }
 
 # Serialization
 serde = { version = "1.0.144", features = ["derive"] }
